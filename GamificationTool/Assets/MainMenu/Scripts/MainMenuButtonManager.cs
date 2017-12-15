@@ -7,7 +7,6 @@ public class MainMenuButtonManager : MonoBehaviour {
 
 	public Object nextScene;
 
-
 	public void ChangeScene(){
 		SceneManager.LoadScene (nextScene.name);
 	}
